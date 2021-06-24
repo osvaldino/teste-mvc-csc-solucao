@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ece59df4-dd88-43d9-acfa-bae9cf04849d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/TaskApiController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/TaskController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/TaskModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/UserModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Home/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Home/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Task/create.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Task/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Task/update.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/_global/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/_global/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/_global/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/_global/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/tasks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/modules/Task_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit_download.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/classes/ApiController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/classes/AuthController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/classes/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/classes/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/classes/Crypto.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/classes/Curl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/classes/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/classes/DB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/classes/Http.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/classes/Http.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/classes/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/classes/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/classes/Redirect.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/classes/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/classes/Route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/classes/Security.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/classes/Security.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/classes/Session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/classes/Utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/classes/Utils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/classes/traits/DateUtils.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/classes/traits/DateUtils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/classes/traits/StringUtils.php" beforeDir="false" afterPath="$PROJECT_DIR$/sys/classes/traits/StringUtils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/db/dump.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sys/db/dump.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/db/er_model.graphml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys/db/er_model.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/ControllersTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/CryptoTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/CurlTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/RouteTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/SecurityTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/UserModelTest.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1uNEUOjDai7jpi6TEYDHb4GLe1w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/controllers" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\home\osvaldino\workspace\mvc-teste\public\app\controllers" />
+      <recent name="\\wsl$\Ubuntu\home\osvaldino\workspace\mvc-teste\public\app\views\User" />
+      <recent name="\\wsl$\Ubuntu\home\osvaldino\workspace\mvc-teste\public\app\models" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ece59df4-dd88-43d9-acfa-bae9cf04849d" name="Default Changelist" comment="" />
+      <created>1624497662134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624497662134</updated>
+      <workItem from="1624497664937" duration="17992000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>
