@@ -1,52 +1,51 @@
-<p align="center">
-	<img src="assets/img/logo.png" alt="PHP MVC Boilerplate">
-</p>
+## 💻 Projeto
+Gerenciamento onde seja possível Criar, Listar, Editar e Remover Usuários, Endereços e tipos de Endereços<br>
+Utilizado uma estrutura MVC criada para este projeto.<br>
 
-# Overview
+### Requerimentos
+- Mysql 5.7
+- PHP 7.0+
+- Apache 2.4
 
-PHP MVC boilerplate with user authentication, basic security and MySQL CRUD operations.
-Framework was developed during the final year of university. It was used for some private projects, however I highly suggest you to use Laravel or some other popular framework for your work.
-
-## Requirements
-
-- **Web server:** Apache with mod_rewrite enabled
-- **Database server:** MySQL
-- PHP 7.x
-
-## CRUD operations
-
-Each database table should have appropriate model file. For example, table `tasks` have `app/models/TaskModel.php`. There you need to hardcode table name in protected `$tableName` property and eventually add new functions. Provided functions with basic model are:
-
-- read
-- readAll
-- create
-- update
-- delete
-
-## Router
-
-All routes should be placed inside `routes.php`. Each route must have following properties:
-
-- Name of the controller whom the route belongs to
-- Name of the controller's method (the route callback)
-- Request URI, represented via PCRE
-
-For example, if we have following code:
-
+### Instalação
 ```
-new Route('Home', 'index', '|^/?$|'),
+git clone https://github.com/osvaldino/teste-mvc-csc-solucao.git
+```
+Acesse a pasta
+```
+cd teste-mvc-csc-solucao
+```
+Definir a conexão com banco de dados no arquivo ```./constants.php```:
+```
+define('BD_SERVIDOR','SEU HOST DO BANCO');
+define('BD_USUARIO','USER DO BANCO');
+define('BD_SENHA','SENHA DO BANCO');
+define('BD_BANCO','teste_csc');
+```
+Executar o arquivo de banco de dados para criar o banco e as tabelas:
+```
+./system/db/dump.sql
+```
+Crie um virtual host em ```/extra/httpd-vhosts.conf``` apontando para a pasta do projeto no seu host do Apache como no exemplo:
+```
+<VirtualHost *:80>
+ServerName mvc-teste.test
+DocumentRoot "d:/wamp64/www/teste-mvc-csc-solucao"
+<Directory  "d:/wamp64/www/teste-mvc-csc-solucao/">
+Options +Indexes +Includes +FollowSymLinks +MultiViews
+AllowOverride All
+Require local
+</Directory>
+</VirtualHost>
+```
+Usando ```mvc-teste.test``` como exemplo do virtual host criado, configurar os caminhos base do sistema no arquivo ```./system/Config.php```:
+```
+const BASE = 'http://mvc-teste.test/';
+const PATH = '/';
+```
+Url de acesso:
+```
+http://mvc-teste.test/
 ```
 
-it means that when user visits URI which matched RegEx `|^/?$|`, `index.php` will instantiate `HomeController.php` and call his `index` method.
-
-### RegEx cheat sheet
-
-Route                    | Regex
-:------------------------|:-------------------
-`/`                      | \|^/?$\|
-`users/`                 | \|^users/?$\|
-`users/create/`          | \|^users/create/?$\|
-`users/update/15/`       | \|^users/update/([0-9]+)/?$\|
-`users/delete/4/`        | \|^users/delete/([0-9]+)/?$\|
-`store/iphone-8-64gb/`   | \|^store/([a-z0-9]+(?:\\-[a-z0-9]+)*)/?$\|
-Anything                 | \|^.*$\|
+Feito com ♥ by Osvaldino Neto
