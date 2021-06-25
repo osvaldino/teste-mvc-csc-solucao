@@ -1,6 +1,5 @@
 ## 💻 Projeto
-Gerenciamento onde seja possível Criar, Listar, Editar e Remover Usuários, Endereços e tipos de Endereços<br>
-Utilizado uma estrutura MVC criada para este projeto.<br>
+Gerenciamento onde seja possível Criar, Listar, Editar e Remover Usuários, Endereços e tipos de Endereços utilizado uma estrutura MVC criada para este projeto.<br>
 
 ### Requerimentos
 - Mysql 5.7
